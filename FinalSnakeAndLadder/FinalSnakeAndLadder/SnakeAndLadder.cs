@@ -25,7 +25,7 @@ namespace FinalSnakeAndLadder
             int player = random.Next(0, 7);
 
             Random random1 = new Random();
-            int option = random1.Next(0, 3);
+            int option = random1.Next(1, 4);
 
 
             Console.WriteLine("Snake And Ladder Game");
@@ -34,7 +34,7 @@ namespace FinalSnakeAndLadder
                 dieCountForPlayer1++;
                 switch (option)
                 {
-                    case 0:
+                    
                     case 1:
                         Console.WriteLine("Player stay at the same position");
                         break;
@@ -65,7 +65,7 @@ namespace FinalSnakeAndLadder
                 dieCountForPlayer2++;
                 switch (option)
                 {
-                    case 0:
+                    
                     case 1:
                         Console.WriteLine("Player stay at the same position");
                         break;
